@@ -1,42 +1,54 @@
-## 起動方法
+# 環境構築
 
+## リポジトリのクローン
+以下コマンドを実行してローカルにリポジトリをクローンしてください
+
+git clone git@github.com:Semi-koron/hackuFrontend.git
+
+## ライブラリインストール
+以下コマンドを実行してライブラリをインストールしてください
+```
+npm install
+```
+
+## 起動方法
 ```
  npm run dev
 ```
 
-## 使用技術
+# 使用技術
 
-# フレームワーク
+## フレームワーク
 
 - vite vanilla
 
-# ハンドトラッキング
+## ハンドトラッキング
 
 - mediapipe handlandmark
 
-# 3D 描画
+## 3D 描画
 
 - a-frame
 
-# マーカー探知
+## マーカー探知
 
 - ar.js
 
-## a-frame の基本的なオブジェクト
+# a-frame の基本的なオブジェクト
 
-box
+## box
 
 ```
 <a-box color="tomato" depth="2" height="4" width="0.5"></a-box>
 ```
 
-shpere
+## shpere
 
 ```
 <a-sphere color="yellow" radius="5"></a-sphere>
 ```
 
-## ブランチ命名規則
+# ブランチ命名規則
 
 何をおかなうブランチかわかるように issue の番号をブランチに入れ、何となくの概要をブランチ名に書きましょう
 
